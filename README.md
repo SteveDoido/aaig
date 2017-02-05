@@ -9,9 +9,9 @@
 "Ace Attorney Trilogy" is a very big game, with lots of text images to be edited:
 
 *   White buttons with text in wine red color;
-*   Proof / Profile names, with dark gray background and texts in orange color;
-*   Proof / Profile subtitles, with light green background and texts in dark gray color;
-*   Proof / Profile descriptions, with dark gray background and texts in white color;
+*   Proof/Profile names, with dark gray background and texts in orange color;
+*   Proof/Profile subtitles, with light green background and texts in dark gray color;
+*   Proof/Profile descriptions, with dark gray background and texts in white color;
 
 The traditional way of editing those graphics is through .PSD files in Adobe Photoshop, which ends up being an extremely repetitive and tiresome task for romhackers. This was the main reason why I created this software.
 
@@ -31,7 +31,7 @@ The "Ace Attorney Image Generator" is a program that can generate imagens on the
 *   The "Vaud Book" font installed on your computer. Needed for the right generation of some kinds of images, such as descriptions of proofs / profiles;
 *   A web server. This software won't work if ran locally by user's web browser¹.
 
-¹ Even if this software being totally local, the method used for image generation (conversion of HTML &lt;canvas&gt; elements to PNG images) can trigger an [uncaught security error of tainted canvases](http://stackoverflow.com/questions/22710627/tainted-canvases-may-not-be-exported) , denying any attempts of data exporting. Thus, we recommend to run this software through a web server (Apache2, per example), even if it's only to serve files to clients.
+¹ Even if this software is being runned locally, the method used for image generation (conversion of HTML &lt;canvas&gt; elements to PNG images) can trigger an [uncaught security error of tainted canvases](http://stackoverflow.com/questions/22710627/tainted-canvases-may-not-be-exported), denying any attempts of data exporting. Thus, we recommend to run this software through a web server (Apache2, for example), even if it's only to serve files to clients.
 
 #### How to use?
 
@@ -45,11 +45,11 @@ The "Ace Attorney Image Generator" is a program that can generate imagens on the
 5.  After you change values of any form fields, the image is automatically updated on the "Preview" below. Change the form fields as you wish, and check if the preview matches your needs;
 6.  Recommended: Undo any custom zoom settings on your web browser, because this can result in wrongly-generated images. Keep your zoom settings always on default values (100%);
 7.  Click on "Generate" button, and the image will be automatically generated and saved on PNG format. The filename will be set accordingly to the text you typed on form fields;
-8.  Optional: If you messed with all default values, click on "Reset" button and all of them will be resetted to its default values.
+8.  Observation: If you messed with all default values, click on "Reset" button and all of them will be resetted to its default values.
 
 #### Feedback
 
-If you find any bug, you can find me on the addresses below:
+If you find any glitches, contact me using the addresses below:
 
 *   [Brazilian's Romhacking and Translation Forum (Fórum Unificado de Romhacking e Tradução - FURT)](http://www.romhacking.net.br/)
 *   [FURT's chat on Discord](https://discord.gg/0V2rK6RK47Okravl)
